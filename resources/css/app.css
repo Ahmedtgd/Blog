@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  /* Button Styles */
+  .my-button {
+    background-color: #f2f2f2;
+    color: #333333;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-size: 1.4rem;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    }
+    &:active {
+      transform: translateY(5px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+  }
+  user-image {
+    width: 50px; 
+    height: auto; 
+    border-radius: 50%; 
+  }
+  /* Sidebar Styles */
+  /* ... (Sidebar styles) ... */
+  
+  /* Login Form Styles */
+  /* ... (Login form styles) ... */
+  
+  /* Animation Styles */
+  .animated-badge {
+    animation: spin-bounce 2s linear infinite;
+  }
+  
+  @keyframes spin-bounce {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+
+  /* Style for the container holding the image */
+/* Style for the container holding the image */
+.preview {
+  width: 100px; /* Set the desired width for the thumbnail */
+  height: 100px; /* Set the desired height for the thumbnail */
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 5px; /* Add border radius for a rounded look */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Style for the image within the container */
+.preview img {
+  width: 100%; /* Ensure the image takes up the full width of the container */
+  height: 100%; /* Ensure the image takes up the full height of the container */
+  object-fit: cover; /* Scale the image to cover the container while maintaining aspect ratio */
+  display: block;
+}
+  
+.img{height:100%; width:100%; display:block;}
+  
+ 
+  
+  
+  
